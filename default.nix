@@ -7,5 +7,6 @@ stdenv.mkDerivation rec {
     url = "https://micans.org/mcl/src/mcl-${version}.tar.gz";
     sha256 = "15xlax3z31lsn62vlg94hkm75nm40q4679amnfg13jm8m2bnhy5m";
   };
+  doCheck = true;
   # TODO metadata
 }
