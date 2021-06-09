@@ -27,7 +27,7 @@ git:
 
 script:
   - nix-build release.nix
-  . ./result/bin/mcl -h
+  - ./result/bin/mcl -h
 
 notifications:
   email:
