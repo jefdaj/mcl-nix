@@ -23,7 +23,6 @@ matrix:
     env: NIX_PATH=nixpkgs=channel:nixpkgs-21.05-darwin
 
 git:
-  # quiet: true
   depth: 5
 
 script:
